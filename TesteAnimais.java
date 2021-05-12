@@ -22,10 +22,11 @@ public class TesteAnimais {
 		preguica.setIdade(10);
 		preguica.subirarvores = true;
 		
-		System.out.println("Som do cavalo: " + cavalo.getSom());
-		System.out.println("Som do cachorro: " + cachorro.getSom());
-		System.out.println("Som da preguiça: " + preguica.getSom());
-	
+		Animal animal = new Animal();
+		
+		animal.getSom();
+		
+		
 		
 	}
 
